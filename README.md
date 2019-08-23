@@ -12,8 +12,8 @@ More content, as well as some corrections, will be added as the course progresse
 
 #### Website & contact
 
-Course website: [https://plus.cs.tuni.fi/bwa/S2019/](https://plus.cs.tuni.fi/bwa/S2019/)  
-Course contact: Mikko Nurminen, bwa@tuni.fi
+Course website: [https://plus.tuni.fi/tie-23516/autumn-2019/](https://plus.tuni.fi/tie-23516/autumn-2019/)  
+Course contact: Mikko Nurminen, mikko.nurminen@tuni.fi, Pia Niemelä, pia.niemela@tuni.fi
 
 #### Syntax validation
 
