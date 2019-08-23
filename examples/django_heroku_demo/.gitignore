@@ -1,0 +1,20 @@
+
+# Python virtual environment
+venv
+
+# Django sqlite database
+db.sqlite3
+
+# Django static files collection
+staticfiles
+
+# Python 3 cache directories
+__pycache__/
+
+# Python 2 cache files
+*.py[cod]
+
+# Eclipse settings
+.project
+.pydevproject
+

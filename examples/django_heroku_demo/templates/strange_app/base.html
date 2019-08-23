@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+{% load staticfiles %}
+
+<head>
+  {% block head %}
+  <title>Customized strange page</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+  {% endblock %}
+</head>
+
+<body>
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+  {% include "disclaimer.html" %}
+</body>
+
+</html>
