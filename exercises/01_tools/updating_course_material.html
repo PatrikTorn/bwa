@@ -40,7 +40,7 @@
           <code>git</code> has a concept of branches with the main idea being that there
           might be multiple versions of the same repository with differing contents. If
           you login to TUT GitLab and browse your project and the public one
-          (<a href="https://course-gitlab.tuni.fi/bwa-2019/student-upstream">bwa-2019/student-upstream</a>)
+          (<a href="https://course-gitlab.tuni.fi/tie-23516-bwa-2019/student_template_project">tie-23516-bwa-2019/student_template_project</a>)
           the contents will be (slightly) different. Your repository hopefully has your own
           commits where you've solved the exercises. And the public material might have some
           corrections which are not yet in your repository.
@@ -59,7 +59,7 @@
       <div class="panel-body">
         <ol>
           <li>Make sure you have committed all changes and you are on branch master</li>
-          <li>Add the remote as upstream: <code>git remote add upstream git@course-gitlab.tuni.fi:bwa-2019/student-upstream.git</code></li>
+          <li>Add the remote as upstream: <code>git remote add upstream git@course-gitlab.tuni.fi:tie-23516-bwa-2019/student_template_project.git</code></li>
           <li>Merge upstream changes with <code>git pull upstream master</code></li>
           <li>Push the changes to your GitLab repository (<code>git push</code> as usual)</li>
         </ol>
@@ -103,7 +103,7 @@ origin  git@course-gitlab.tuni.fi:bwa-2019/YOUR_STUDENT_NUMBER.git (push)</pre>
     </p>
 
     <pre>
-$ <strong>git remote add upstream git@course-gitlab.tuni.fi:bwa-2019/student-upstream.git</strong></pre>
+$ <strong>git remote add upstream git@course-gitlab.tuni.fi:tie-23516-bwa-2019/student_template_project.git</strong></pre>
 
     <p>
       In your list your remotes you should now see your own repository in Gitlab
@@ -112,10 +112,10 @@ $ <strong>git remote add upstream git@course-gitlab.tuni.fi:bwa-2019/student-ups
 
     <pre>
 $ <strong>git remote -v</strong>
-origin  git@course-gitlab.tuni.fi:bwa-2019/YOUR_STUDENT_NUMBER.git (fetch)
-origin  git@course-gitlab.tuni.fi:bwa-2019/YOUR_STUDENT_NUMBER.git (push)
-upstream  git@course-gitlab.tuni.fi:bwa-2019/student-upstream.git (fetch)
-upstream  git@course-gitlab.tuni.fi:bwa-2019/student-upstream.git (push)</pre>
+origin  git@course-gitlab.tuni.fi:tie-23516-bwa-2019/YOUR_USERNAME.git (fetch)
+origin  git@course-gitlab.tuni.fi:tie-23516-bwa-2019/YOUR_USERNAME.git (push)
+upstream  git@course-gitlab.tuni.fi:tie-23516-bwa-2019/student_template_project.git (fetch)
+upstream  git@course-gitlab.tuni.fi:tie-23516-bwa-2019/student_template_project.git (push)</pre>
 
     <p class="alert alert-warning">
       Notice that you only need to add the remote once, after this you can pull
