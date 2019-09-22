@@ -9,7 +9,17 @@ $("#javascript_end").html("[WAITING]...this far we haven't reached the end... Ma
 // ADD YOUR CODE BETWEEN THESE LINES //
 
 
+$("ul li a").each((i, link) => {
+    const extension = link.pathname.split('.').pop();
+    if (extension.includes('/')) return
+    
+    if (extension === 'pdf') {
+        $(link).addClass('pdf');
+    } else if (extension !== 'html') {
+        $(link).addClass('download');
+    }
 
+})
 
 
 
