@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="reverser">
+        <input id="toBeReversed" name="input" text>
+        <input type="submit" id="submitReverser">
+    </form>
+    <button id="clearInput">Clear Input</button>
+    <script type="text/javascript">
+
+        function postMessage(payload) {
+            window.parent.postMessage({payload}, '*')
+        }
+        var submitReverser = document.getElementById('submitReverser')
+        var toBeReversed = document.getElementById('toBeReversed')
+        var clearInput = document.getElementById('clearInput')
+
+        submitReverser.addEventListener('click', () => {
+            postMessage(toBeReversed.value.split("").reverse().join(""))
+        })
+
+        clearInput.addEventListener('click', () => {
+            postMessage('INPUT CLEARED')
+        })
+
+        // w.postMessage("message");
+    </script>
+</body>
+</html>
